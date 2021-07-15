@@ -26,10 +26,7 @@ function Map (){
      <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 Embtec Konzultz{' '}
-            <a href='http://www.embtec.com.ng' rel='nofollow'>
-              Embtec Konzultz
-            </a>
+            &copy; Copyright Embtec Konzultz 2021 {' '}
           </p>
         </div>
       </div>

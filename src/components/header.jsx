@@ -11,7 +11,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a href='http://www.embtec.com.ng' rel='nofollow'>
+                <a href='https://embtitcoursesapp.herokuapp.com/' rel='nofollow'>
                 <button type='submit' className='btn btn-custom btn-lg'>
                  Read More
                  </button>
