@@ -23,7 +23,18 @@ function Map (){
      mapElement={<div style={{ height: "100%" }} />}
 
      />
+     <div id='footer'>
+        <div className='container text-center'>
+          <p>
+            &copy; 2021 Embtec Konzultz{' '}
+            <a href='http://www.embtec.com.ng' rel='nofollow'>
+              Embtec Konzultz
+            </a>
+          </p>
+        </div>
+      </div>
      </div>
+     
   
      )
     }
