@@ -12,7 +12,9 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a href='http://www.embtec.com.ng' rel='nofollow'>
-              Read More
+                <button type='submit' className='btn btn-custom btn-lg'>
+                 Read More
+                 </button>
                 </a>{' '}
               </div>
             </div>
