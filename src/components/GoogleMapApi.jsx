@@ -23,13 +23,6 @@ function Map (){
      mapElement={<div style={{ height: "100%" }} />}
 
      />
-     <div id='footer'>
-        <div className='container text-center'>
-          <p>
-            &copy; Copyright Embtec Konzultz 2021 {' '}
-          </p>
-        </div>
-      </div>
      </div>
      
   

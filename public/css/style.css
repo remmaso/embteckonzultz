@@ -86,20 +86,30 @@ hr {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .intro h1 span {
 	font-weight: 800;
 	color: #5ca9fb;
 }
+
 .intro p {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 30px;
-	margin: 0;
-	margin-bottom: 10px;
+	margin: 0 auto;
+	margin-bottom: 200px;
 }
+
+.button{
+	font-size: 20px;
+	border: #daa520 1px solid;
+	color:#daa520;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
 header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
@@ -231,21 +241,72 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
-/* Footer Section*/
-#footer {
-	background: #f6f6f6;
-	padding: 30px 0;
+/* Footer */
+.footer {
+    background: #0C152E;
+    bottom: 0;
+    color: #FFF;
+    left: 0;
+    min-height: 463px;
+    width: 100%;
 }
-#footer p {
-	color: #888;
-	font-size: 14px;
+
+.footer .container .first {
+    align-items: center;
+    min-height: 370px;
+    padding-top: 100px;
 }
-#footer a {
-	color: #608dfd;
+
+.footer .container .second {
+    align-self: center;
+    border-top: 1px solid rgba(194, 194, 194, 0.2);
+    height: 92px;
 }
-#footer a:hover {
-	border-bottom: 2px solid #608dfd;
+
+.footer .container .second > div {
+    align-self: center;
+    color: #E7ECF3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
 }
+
+.footer .container .second > div > i {
+    background: #054AFA;
+    border-radius: 50%;
+    height: 32px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 32px;
+}
+
+.footer .logo {
+    color: #FFF;
+    font-family: Nunito, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.footer .section {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .position {
+    color: #E7ECF3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
 
 @media (max-width: 768px, 500px) {
 #about img {

@@ -10,12 +10,12 @@ export const Header = (props) => {
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a href='https://embtitcoursesapp.herokuapp.com/' rel='nofollow'>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                 Read More
-                 </button>
-                </a>{' '}
+                <p>{props.data ? props.data.paragraph : 'Loading'}
+                </p>
+                <section id="header1">
+                  <p>...Providing Unique Solutions</p>
+                  <a href ="https://embtitcoursesapp.herokuapp.com" className="button">Read More</a>
+                </section>{' '}
               </div>
             </div>
           </div>
