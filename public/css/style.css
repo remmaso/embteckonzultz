@@ -75,6 +75,7 @@ hr {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -98,8 +99,12 @@ hr {
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 30px;
-	margin: 0 auto;
-	margin-bottom: 200px;
+	display: flex;
+	justify-content:  flex-end;
+	padding-bottom: 200px;
+	margin-bottom: 250px;
+	
+	
 }
 
 .button{
