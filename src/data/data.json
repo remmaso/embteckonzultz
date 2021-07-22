@@ -5,7 +5,21 @@
        
 
     },
-    
+    "About": {
+        "paragraph": "Enroll your young ones to learn coding today to be on top of the Tech hub in the Global market. Beginning from the basics to the advanced coding, in our high performing courses like Javascipt, React, Python/ Machine Learing etc",
+        "Why": [
+            "Best Experienced Tutors",
+            "Industrial Standard ",
+            "State Of Art Classroom",
+            "Hands on Projects"
+        ],
+        "Why2": [
+            "Affordable Fees",
+            "Proving Track Record",
+            "Easy Accessible Center",
+            "Dedicated Internet Access"
+        ]
+    },
     "Contact": {
         "address": "No 6 Eputu-Ogunfayo Rd, Eputu ",
         "phone": "+234 802 222 2002",
