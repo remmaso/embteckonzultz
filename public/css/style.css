@@ -246,7 +246,9 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
+
 /* Footer */
+
 .footer {
     background: #0C152E;
     bottom: 0;
@@ -257,6 +259,7 @@ color: #777;
 }
 
 .footer .container .first {
+	
     align-items: center;
     min-height: 370px;
     padding-top: 100px;

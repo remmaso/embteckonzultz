@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Header } from './components/header'
-import Footer  from "./components/main/Footer"
 import { Contact } from './components/contact'
 import { GoogleMapApi } from './components/GoogleMapApi'
 import JsonData from './data/data.json'
@@ -22,7 +21,6 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Contact data={landingPageData.Contact} />
       <GoogleMapApi data={landingPageData.GoogleMapApi} />
-      <Footer />
       </div>
   )
 }

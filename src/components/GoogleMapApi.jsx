@@ -23,7 +23,19 @@ function Map (){
      mapElement={<div style={{ height: "100%" }} />}
 
      />
+
+          <div id="footer">
+          <div className="container text-center">
+            <p>
+               Embtec Konzultz 2021 &copy; Continue to {" "}
+              <a href="https://embtitcoursesapp.herokuapp.com/" rel="nofollow">
+                Embtec Home Page
+              </a>
+            </p>
+          </div>
+        </div>
      </div>
+     
      
   
      )
