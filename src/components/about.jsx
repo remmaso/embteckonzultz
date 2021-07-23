@@ -21,7 +21,10 @@ export class about extends Component {
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     <ul>
                     {this.props.data ? this.props.data.Why2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
-
+                    <section id="header1">
+                  <p></p>
+                  <a href ="https://embtitcoursesapp.herokuapp.com" className="button">Read More</a>
+                </section>{' '}
                     </ul>
                   </div>
                 </div>
