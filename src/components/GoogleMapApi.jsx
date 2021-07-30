@@ -1,28 +1,53 @@
-import React from 'react'
-import {GoogleMap, withScriptjs, withGoogleMap} from 'react-google-maps'
+import React, { Component } from 'react';
+import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react'
 
+import CurrentLocation from './Map';
 
-function Map (){
-  return(
-<GoogleMap
- defaultZoom={10} 
- defaultCenter={{lat:6.4754, lng:3.7194 }}
- />
-  )
+export class MapContainer extends Component {
+  state = {
+    showingInfoWindow: false,
+    activeMarker: {},
+    selectedPlace: {}
+  };
+
+  onMarkerClick = (props, marker, e) =>
+    this.setState({
+      selectedPlace: props,
+      activeMarker: marker,
+      showingInfoWindow: true
+    });
+
+  onClose = props => {
+    if (this.state.showingInfoWindow) {
+      this.setState({
+        showingInfoWindow: false,
+        activeMarker: null
+      });
+    }
+  };
+
+  render() {
+    return (
+      <CurrentLocation centerAroundCurrentLocation google={this.props.google}>
+        <Marker onClick={this.onMarkerClick} name={'Embtec Konzultz, @ No 6,Ogunfayo-Eputu Road, Eputu, Lekki-Epe Express Road.'}
+         />
+        <InfoWindow
+          marker={this.state.activeMarker}
+          visible={this.state.showingInfoWindow}
+          onClose={this.onClose}
+        >
+          <div>
+            <h4>{this.state.selectedPlace.name}</h4>
+          </div>
+        </InfoWindow>
+      </CurrentLocation>
+    );
+  }
 }
 
- const WrappedMap = withScriptjs(withGoogleMap(Map))
- 
- export const GoogleMapApi = (props) => {
-  return (
-   <div style={{width: '100vw', height:'80vh'}}>
-     <WrappedMap
-      googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY="AIzaSyB9tpb3AqswiBweV_1Fd1yUXD6mU3mJspk" }`}
-     loadingElement={<div style={{ height: "100%" }} />}
-     containerElement={<div style={{ height: "400px" }} />}
-     mapElement={<div style={{ height: "100%" }} />}
-
-     />
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyB9tpb3AqswiBweV_1Fd1yUXD6mU3mJspk'
+})(MapContainer);
 
           <div id="footer">
           <div className="container text-center">
@@ -34,9 +59,9 @@ function Map (){
             </p>
           </div>
         </div>
-     </div>
+     
      
      
   
-     )
-    }
+    
+    

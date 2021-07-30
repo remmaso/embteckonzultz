@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Header } from './components/header'
 import  About  from './components/about'
 import { Contact } from './components/contact'
-import { GoogleMapApi } from './components/GoogleMapApi'
+import  GoogleMapApi  from './components/GoogleMapApi'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
