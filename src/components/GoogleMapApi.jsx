@@ -29,7 +29,7 @@ export class MapContainer extends Component {
   render() {
     return (
       <CurrentLocation centerAroundCurrentLocation google={this.props.google}>
-        <Marker onClick={this.onMarkerClick} name={'Embtec Konzultz, @ No 6,Ogunfayo-Eputu Road, Eputu, Lekki-Epe Express Road.'}
+        <Marker onClick={this.onMarkerClick} name={'Embtec Konzultz @ No 6,Ogunfayo-Eputu Road, Eputu, Lekki-Epe Express Road.'}
          />
         <InfoWindow
           marker={this.state.activeMarker}
