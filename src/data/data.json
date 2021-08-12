@@ -20,6 +20,26 @@
             "Dedicated Internet Access"
         ]
     },
+    "Team": [{
+        "img": "img/team/image1.jpg",
+        "name": "John Doe",
+        "job": "Director"
+    },
+    {
+        "img": "img/team/image2.jpg",
+        "name": "Mike Doe",
+        "job": "Senior Designer"
+    }, {
+        "img": "img/team/image3.jpg",
+        "name": "Jane Doe",
+        "job": "Senior Designer"
+    },
+    {
+        "img": "img/team/04.jpg",
+        "name": "Karen Doe",
+        "job": "Project Manager"
+    }
+],
     "Contact": {
         "address": "No 6 Eputu-Ogunfayo Rd, Eputu ",
         "phone": "+234 802 222 2002",
