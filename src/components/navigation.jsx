@@ -20,7 +20,7 @@ export class Navigation extends Component {
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
               Embtec Konzultz
-            </a>{" "}
+            </a>{" This page is under construction be patient"}
           </div>
 
           <div
