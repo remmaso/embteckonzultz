@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Navigation from './components/navigation'
 import { Header } from './components/header'
-import Features from './components/features'
+import Services from './components/services'
 import  About  from './components/about'
 import { Contact } from './components/contact'
 import  GoogleMapApi  from './components/GoogleMapApi'
@@ -23,8 +23,8 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
+      <Services data={landingPageData.Services} />
       <Contact data={landingPageData.Contact} />
       <GoogleMapApi data={landingPageData.GoogleMapApi} />
       </div>

@@ -21,7 +21,7 @@
         ]
     },
     "Contact": {
-        "address": "No 6 Eputu-Ogunfayo Rd, Eputu ",
+        "address": "No 6 Eputu-Ogunfayo Rd, Eputu Ibeju-Lekki, Lagos State. Nigeria",
         "phone": "+234 802 222 2002",
         "email": "info@embtec.com.ng",
         "facebook": "https://www.facebook.com/embteckonzultz/",
@@ -29,19 +29,19 @@
         "youtube": "youtube.com"
     },
 
-    "Features": [{
+    "Services": [{
         "icon": "fa fa-comments-o",
-        "title": "Vision",
+        "name": "Vision",
         "text": "To serve the mini, micro and small-scale enterprises (MMSE) and persons whose needs may not adequately be met by/through conventional Institutions/practices"
     },
     {
         "icon": "fa fa-bullhorn",
-        "title": "Mission",
+        "name": "Mission",
         "text": "To provide cutting-edge, tailor-made but unique solutions to our varied clientele in a timely manner; always aware that one-size-fits-all don’t work in this segment of the market"
     },
     {
         "icon": "fa fa-group",
-        "title": "Values",
+        "name": "Core Values",
         "text": "Excellence Modeled on Beauty, Transparency, Ethical values and good Conscience"
     }
     
