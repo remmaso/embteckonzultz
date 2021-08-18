@@ -6,7 +6,7 @@ export class features extends Component {
       <div id="features" className="text-center">
         <div className="container">
           <div className="col-md-10 col-md-offset-1 section-title">
-            <h2>We embrace the following</h2>
+            <h2>We culture these</h2>
           </div>
           <div className="row">
             {this.props.data
