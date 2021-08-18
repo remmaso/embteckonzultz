@@ -32,7 +32,41 @@ export class about extends Component {
             </div>
           </div>
         </div>
+    <section id="icon-boxes" class="p-5">
+    <div className="container">
+      <div className="row mb-4">
+        <div className="col-md-4">
+          <div className="card bg-danger text-white text-center">
+            <div className="card-body">
+              <i className="fas fa-building fa-3x"></i>
+              <h1>Vision</h1>
+              <p>To serve the mini, micro and small-scale enterprises (MMSE) and persons whose needs may not adequately be met by/through conventional Institutions/practices</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card bg-dark text-white text-center">
+            <div className="card-body">
+              <i className="fas fa-bullhorn fa-3x"></i>
+              <h1>Mission</h1>
+              <p>To provide cutting-edge, tailor-made but unique solutions to our varied clientele in a timely manner; always aware that one-size-fits-all don’t work in this segment of the market</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card bg-danger text-white text-center">
+            <div className="card-body">
+              <i className="fas fa-comments fa-3x"></i>
+              <h1>Core Values</h1>
+             <p> Excellence Modeled on Beauty, Transparency, Ethical values and good Conscience</p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    </section>
+    </div>
+      
     )
   }
 }

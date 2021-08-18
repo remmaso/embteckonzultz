@@ -18,7 +18,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            <a className="navbar-brand page-scroll" href="https://embteckonzultzapp.herokuapp.com/">
               Embtec Konzultz
             </a>{" This page is under construction be patient"}
           </div>
@@ -29,17 +29,17 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
             <li>
-                <a href="#team" className="page-scroll">
+                <a href="https://embtitcoursesapp.herokuapp.com" className="page-scroll">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="https://embtitcoursesapp.herokuapp.com/footer/about" className="page-scroll">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="https://embtitcoursesapp.herokuapp.com/services" className="page-scroll">
                   Services
                 </a>
               </li>
