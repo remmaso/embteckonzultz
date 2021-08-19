@@ -32,7 +32,8 @@ export class about extends Component {
             </div>
           </div>
         </div>
-    </div>
+      </div>
+  
       
     )
   }
