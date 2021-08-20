@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Navigation from './components/navigation'
 import { Header } from './components/header'
 import Services from './components/services'
+import Gallery from './components/gallery'
 import  About  from './components/about'
 import { Contact } from './components/contact'
 import  GoogleMapApi  from './components/GoogleMapApi'
@@ -25,6 +26,7 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
+      <Gallery />
       <Contact data={landingPageData.Contact} />
       <GoogleMapApi data={landingPageData.GoogleMapApi} />
       </div>
