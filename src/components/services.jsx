@@ -6,7 +6,7 @@ export class Services extends Component {
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our culture</h2>
+            <h1>Our Culture</h1>
             <p>
               ....Providing Unique Solutions
             </p>

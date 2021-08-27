@@ -299,7 +299,7 @@ header .intro-text {
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
-#services h2 {
+#services h1 {
 	color: #fff;
 }
 #services .section-title h2::after {
