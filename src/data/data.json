@@ -5,6 +5,23 @@
        
 
     },
+    "Services": [{
+        "icon": "fa fa-comments-o",
+        "name": "Vision",
+        "text": "To serve the mini, micro and small-scale enterprises (MMSE) and persons whose needs may not adequately be met by/through conventional Institutions/practices"
+    },
+    {
+        "icon": "fa fa-bullhorn",
+        "name": "Mission",
+        "text": "To provide cutting-edge, tailor-made but unique solutions to our varied clientele in a timely manner; always aware that one-size-fits-all don’t work in this segment of the market"
+    },
+    {
+        "icon": "fa fa-group",
+        "name": "Core Values",
+        "text": "Excellence Modeled on Beauty, Transparency, Ethical values and good Conscience"
+    }
+    
+],
     "About": {
         "paragraph": "Enroll your young ones to learn coding today, to be on top of the Tech hub in the global market. Beginning from the basics to the advanced coding, in our high performing courses like Javascipt, React, Python/ Machine Learing, Html, Css etc. Click read more below to browse our Course Library",
         "Why": [
@@ -27,24 +44,8 @@
         "facebook": "https://www.facebook.com/embteckonzultz/",
         "twitter": "https://twitter.com/embteckonzultz",
         "youtube": "youtube.com"
-    },
-
-    "Services": [{
-        "icon": "fa fa-comments-o",
-        "name": "Vision",
-        "text": "To serve the mini, micro and small-scale enterprises (MMSE) and persons whose needs may not adequately be met by/through conventional Institutions/practices"
-    },
-    {
-        "icon": "fa fa-bullhorn",
-        "name": "Mission",
-        "text": "To provide cutting-edge, tailor-made but unique solutions to our varied clientele in a timely manner; always aware that one-size-fits-all don’t work in this segment of the market"
-    },
-    {
-        "icon": "fa fa-group",
-        "name": "Core Values",
-        "text": "Excellence Modeled on Beauty, Transparency, Ethical values and good Conscience"
     }
+
     
-]
     
 }
