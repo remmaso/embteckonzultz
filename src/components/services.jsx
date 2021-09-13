@@ -8,7 +8,7 @@ export class Services extends Component {
           <div className="section-title">
             <h1>Our Culture</h1>
             <p>
-              ....Providing Unique Solutions
+              ...Providing Unique Solutions
             </p>
           </div>
           <div className="row">
