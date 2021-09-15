@@ -20,7 +20,7 @@ export class Navigation extends Component {
             </button>
             <a className="navbar-brand page-scroll" href="https://embteckonzultzapp.herokuapp.com/">
               Embtec Konzultz
-            </a>{" ...logo loading"}
+            </a>{" ...logo"}
           </div>
 
           <div
