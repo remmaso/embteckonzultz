@@ -128,7 +128,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Machine Leaning</h4>
+                        <h4>Machine Learning</h4>
                       </div>
                       <img
                         src="img/portfolio/06-small.jpg"
