@@ -23,7 +23,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Graphics</h4>
+                        <h4>Graphics Design</h4>
                       </div>
                       <img
                         src="img/portfolio/01-small.jpg"
@@ -44,7 +44,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Web</h4>
+                        <h4>Web Development</h4>
                       </div>
                       <img
                         src="img/portfolio/02-small.jpg"
@@ -58,14 +58,14 @@ export class Gallery extends Component {
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
-                   <h2> {" Desktop Publishing"}</h2>
+                   <h2> {" Microsoft Office Package"}</h2>
                     <a
                       href="img/portfolio/03-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Publishing</h4>
+                        <h4>Microsoft Office Package</h4>
                       </div>
                       <img
                         src="img/portfolio/03-small.jpg"
@@ -121,7 +121,7 @@ export class Gallery extends Component {
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
-                    <h2>{"Big Data and Analytics"}</h2>
+                    <h2>{"Machine Learning"}</h2>
                     <a
                       href="img/portfolio/06-large.jpg"
                       title="Project Title"
@@ -142,14 +142,14 @@ export class Gallery extends Component {
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
-                  <h2>{"Programming and Machine Learning "}</h2>
+                  <h2>{"Data Analysis "}</h2>
                     <a
                       href="img/portfolio/07-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Programming</h4>
+                        <h4>Data Analysis</h4>
                       </div>
                       <img
                         src="img/portfolio/07-small.jpg"
@@ -191,7 +191,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Security</h4>
+                        <h4>Cyber Security</h4>
                       </div>
                       <img
                         src="img/portfolio/09-small.jpg"
